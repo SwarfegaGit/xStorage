@@ -24,6 +24,7 @@
   - Fixed style violations in xDisk.
   - Fixed issue when creating multiple partitions on a single disk with no size
     specified - See [Issue 86](https://github.com/PowerShell/xStorage/issues/86).
+  - Updated 1-xDisk_InitializeDataDisk.ps1 example to use DiskNumber rather than DiskId. See [Issue 81] and first item in the xDiskAccessPath section
 - xDiskAccessPath:
   - BREAKING CHANGE: Renamed parameter DiskNumber to DiskId to
     enable it to contain either DiskNumber or UniqueId - See [Issue 81](https://github.com/PowerShell/xStorage/issues/81).
